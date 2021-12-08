@@ -2,7 +2,7 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
   return (
     <footer className='Footer'>
-      <p>Copyright &copy; {currentYear}</p>
+      <p>&copy; {currentYear} &minus; by Prashant Varshney</p>
     </footer>
   );
 };
